@@ -1,0 +1,28 @@
+{
+  "name": "adapt-autor",
+  "homepage": "https://github.com/adaptlearning/adapt_framework",
+  "authors": [
+    "Tamara Steinner <tscaraujo@cetiqt.senai.br>"
+  ],
+  "description": "Testing plugin",
+  "main": "js/adapt-autor.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/plugins",
+    "test",
+    "tests"
+  ],
+  "license": "MIT",
+  "private": true,
+  "version": "0.0.8",
+  "framework": ">=5.0",
+  "component": "autor",
+  "displayName": "Página do Autor"
+}
+ 

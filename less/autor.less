@@ -1,0 +1,65 @@
+.autor__inner{
+
+    .author-outside {
+        border: 3px solid  @item-color-second;
+        max-width: 60rem;
+        margin: auto;
+    }
+    .author-box h2{
+        font-size: 24px;
+        color: @item-color-second;
+        font-weight: 400;
+        text-align: left;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    .author-box{
+        padding: 0 50px 50px;
+        height: fit-content;
+    }
+    .author-box p {
+        text-align: justify;
+        color: #ffffff;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .author-box p::first-letter {
+        margin-left: 20px;
+    }
+    .author-display {
+        display: flex;
+        align-items: flex-start;
+
+        @media screen and (max-width: 680px){            
+            flex-direction: column;
+            align-items: center;
+
+        }
+    }
+      
+    .author-container{
+        display: flex;
+        align-items: center;
+       width: 100%;
+    }
+    .author-icon{
+        width: 75px;
+        height: 75px;
+        background-color: @item-color-second;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+   }
+    h2{
+        font-size: 20px;
+        font-weight: bold;
+        color: @item-color-second;
+        color: @item-color-second;
+   }
+   
+}
+.gray-bg{
+    max-width: 100% !important;
+    background: @grey;
+}

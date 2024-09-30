@@ -1,0 +1,13 @@
+{
+  "_id":"c-05",
+  "_parentId":"b-05",
+  "_type":"component",
+  "_component":"autor",
+  "_classes":"",
+  "titleText": "Título",
+  "textInside": "Parágrafo",
+  "_graphic": {
+    "src": "course/en/images/origami-birds-blue.jpg"
+  }
+
+}
