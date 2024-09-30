@@ -1,7 +1,7 @@
 {
   "name": "adapt-test",
   "version": "1.0.0",
-  "description": "A Hello World Plugin for [Adapt Learning](https://www.adaptlearning.org/).",
+  "description": "Página de autor.",
   "main": "js/adapt-autor.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
